@@ -1,51 +1,69 @@
 # ⚡ APIHawk
 
-**Know when your APIs break before your users do.**
+**Know when your APIs break—before your users do**
 
-APIHawk is simple, powerful API monitoring. Track uptime, response times, and get instant status badges for your endpoints. Monitor multiple APIs from a single dashboard.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tahseen137/apihawk)
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://apihawk.vercel.app)
 
-![Screenshot](screenshot.png)
+---
 
-## Features
+## 📖 About
 
-- 🎯 **Multi-Endpoint Monitoring** — Track unlimited API endpoints from one dashboard
-- ⚡ **Response Time Tracking** — Detailed performance insights and averages
-- 🏷️ **Status Badges** — Shields.io-style badges for your README
-- 📊 **Analytics** — Uptime percentages and historical data
-- 🔔 **Alerts** — Get notified when endpoints go down
+**APIHawk** is a simple, powerful API monitoring tool. Track uptime, response times, and get instant status badges for your endpoints. Monitor REST APIs, GraphQL, and webhooks.
 
-## Tech Stack
+Perfect for:
+- 🔌 API providers
+- 🛠️ Microservices
+- 📊 SaaS platforms
+- 🌐 Public APIs
 
-- **Framework:** Next.js 14
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Deployment:** Vercel
+**Live Demo:** [apihawk.vercel.app](https://apihawk.vercel.app)
 
-## Getting Started
+---
+
+## ✨ Features
+
+- 📊 **Uptime Monitoring** — Track API availability
+- ⏱️ **Response Time** — Performance metrics
+- 🔔 **Instant Alerts** — Email notifications on downtime
+- 📈 **Historical Data** — View trends over time
+- 🎯 **Status Badges** — SVG badges for README files
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/apihawk.git
+git clone https://github.com/tahseen137/apihawk.git
 cd apihawk
-
-# Install dependencies
 npm install
-
-# Run development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
-## Deployment
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/apihawk)
+## 🎯 Usage
 
-## Live Demo
+1. Add an API endpoint to monitor
+2. Set check interval (1, 5, or 15 minutes)
+3. Configure alerts
+4. Get status badge:
 
-🔗 [apihawk.vercel.app](https://apihawk.vercel.app)
+```markdown
+![API Status](https://apihawk.vercel.app/api/badge/endpoint-id.svg)
+```
 
-## License
+---
 
-MIT
+## 🤝 Contributing
+
+Contributions welcome!
+
+---
+
+## 📝 License
+
+MIT License
+
+**Monitor APIs, sleep better ⚡💤**
